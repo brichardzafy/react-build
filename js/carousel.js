@@ -20,7 +20,7 @@ $(document).ready(function () {
     $('#myCarousel').carousel({
         interval: false
     });
-    
+
     $('#myCarousel').on('slid.bs.carousel', function (e) {
         if ($('.carousel-inner .item:last').hasClass('active')) {
             $('#myCarousel').carousel('pause');

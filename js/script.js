@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
     /*$("[rel='tooltip']").tooltip();
- 
+
     $('.thumbnail').hover(
         function(){
             $(this).find('.caption').slideDown(250); //.fadeIn(250)
@@ -15,9 +15,9 @@ $( document ).ready(function() {
 
     $('.media-body').hover(
         function() {
-            $(this).$('.close-notification').fadeIn('slow');
+            $('.close-notification').fadeIn('slow');
         },function() {
-            $(this).$('.close-notification').fadeOut('slow');
+            $('.close-notification').fadeOut('slow');
         }
     );
     $("#value_bc").hide();
@@ -90,6 +90,3 @@ $( document ).ready(function() {
 
 
 });
-
-
-

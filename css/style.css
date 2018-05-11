@@ -2401,7 +2401,7 @@ ul#menu li {
     margin-left: -41px;
 }
 
-.pastille-notification {
+/*.pastille-notification {
     position: absolute;
     top: 17px;
     left: 14px;
@@ -2411,8 +2411,20 @@ ul#menu li {
     width: 72%;
     color: #fff;
     z-index: 1000;
-}
+}*/
 
+.pastille-notification {
+    position: absolute;
+    top: -13px;
+    left: 40px;
+    padding: 1px;
+    background: #e5097e;
+    border-radius: 50%;
+    width: 25px;
+    color: #fff;
+    z-index: 9999;
+    height: 25px;
+}
 .texte_ma_photo {
     position: absolute;
     top: 17px;
@@ -3216,4 +3228,3 @@ progress::-moz-progress-bar{background: transparent;}
 .Checkout label {
     display: block;
 }
-
