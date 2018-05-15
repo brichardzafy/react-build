@@ -1,0 +1,530 @@
+@media only screen and (min-width: 1200px) {
+    input.textarea {
+
+        bottom: -63px;
+        left: 163px;
+        width: 95%;
+    }
+
+    /*.envoyer-btn {
+        bottom: -54px;
+        right: -58px;
+    }*/
+
+    .chat {
+        margin-right: -144px;
+        height: 374px;
+        overflow: hidden;
+        overflow-y: auto;
+        padding: 0 0 18px 0;
+    }
+
+    .btn-profil {
+        font-size: 12px;}
+
+    .other .msg {
+        order: 1;
+        border: 1px solid rgba(239, 235, 235, 0.52);
+        /* box-shadow: -1px 2px 0px #D4D4D4; */
+    }
+
+    .modal-photo {
+        margin: 118px auto;
+    }
+
+    .photo-diapo{width: auto;
+        height: 529px;}
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-box {
+        margin-top: 127px;
+    }
+
+    /*.menu-fixed {
+        width: 100%;
+    }*/
+
+    /*.navbar-nav.mobile-bar {
+        position: relative;
+        top: 24px;
+    }*/
+
+    .dropdown-menu.dropdown-box.scroll-dropdown {
+        position: absolute;
+        top: 53px;
+        left: 7px;
+    }
+
+    .dropdown-menu.dropdown-box-notification {
+        position: absolute !important;
+        top: 71px;
+    }
+
+    .num_message {
+        left: 21px;
+    }
+
+    #myCarousel {
+        padding-left: 99px;
+        padding-right: 0px;
+    }
+
+    .reply {
+        width: 100%;
+    }
+
+    .conversation {
+        width: 94%;
+    }
+
+    textarea.form-control {
+        margin: 0 0 0 11px;
+    }
+
+    .previous {
+        margin-top: -46px;
+    }
+
+    .navbar-fixed-top {
+        padding-bottom: 24px;
+    }
+
+    .decalage-mobile{
+        margin:0 25px 0 25px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    /*.textarea-message {
+        top: 25px;
+    }*/
+
+    .chat li {
+        width: 100%;
+    }
+
+    .texte_ma_photo {
+        top: 17px;
+        left: 37px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px){
+    /*.textarea-message {
+        top: -7px;
+    }*/
+
+    /*.menu-fixed {
+        position: fixed;
+        width: 1353px;
+    }*/
+
+
+    .chat li {
+        width:98%;}
+
+    .chat {
+        padding: 0px 0 36px 0;
+        height: 374px;
+        overflow: hidden;
+        overflow-y: auto;
+        width: 439px;
+    }
+
+    .message-content {
+        width: 121%;
+        right: 67px;
+    }
+
+    .close-modal {
+        left: 89px;
+    }
+    .envoyer-btn {
+        margin-right: 17px;
+        margin-bottom: -1px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .texte_ma_photo {
+        top: 17px;
+        left: 37px;
+    }
+
+    .bloc_title_2 {
+        width: 95% !important;
+    }
+
+    .texte_box {
+        width: 130px;
+    }
+
+    .textarea-mobile{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        width: 78%;
+        height: 50px;
+        z-index: 99;
+        background: #fafafa;
+        border: none;
+        outline: none;
+        padding-left: 18px;
+        padding-right: 18px;
+        color: #666;
+        font-weight: 400;
+    }
+
+    .envoyer-btn-mobile{
+        position: fixed;
+        bottom: 0px !important;
+        /* left: 255px; */
+        right: 0px !important;
+        width: 25%;
+        height: 50px;
+        z-index: 99 !important;
+    }
+
+    /*.chat {
+        padding: 120px 0 44px 0;
+        height: 560px;
+        overflow: hidden;
+        overflow-y: auto;
+        width: auto;
+    }*/
+}
+
+@media only screen and (max-width: 767px) {
+    .dropdown-menu.dropdown-box.scroll-dropdown {
+        left: 6px;
+    }
+
+    .texte_ma_photo {
+        top: 17px;
+        left: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .bloc_title_2 {
+        width: 91% !important;
+        padding: 22px 0px 13px 27px !important;
+    }
+
+    .bloc_section_edit {
+        width: 92% !important;
+    }
+
+    .bloc_annonce {
+        width: 92% !important;
+    }
+
+    .bloc_section {
+        width: 92% !important;
+    }
+
+    .photo-diapo{
+        height:269px;
+    }
+
+    .textarea-message {
+        width: 75%;
+    }
+
+    .chat {
+        padding: 120px 0 44px 0;
+    }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 375px) {
+    .num_message {
+        left: 18px;
+    }
+
+    #myCarousel {
+        padding-left: 71px;
+        padding-right: 10px;
+    }
+
+    .checkbox-inline, .radio-inline {
+        padding-left: 14px;
+    }
+
+    .dropdown-menu.dropdown-box.scroll-dropdown {
+        top: 53px;
+        left: -7px;
+    }
+
+    .texte_ma_photo {
+        top: 17px;
+        left: 11px;
+        font-size: 11px;
+    }
+
+    .texte_box {
+        width: 75px !important;
+    }
+
+    .country {
+        width: 81px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .num_message {
+        left: 11px;
+    }
+
+    #myCarousel {
+        padding-left: 58px;
+        width: 101%;
+    }
+
+    .checkbox-inline, .radio-inline {
+        position: relative;
+        display: inline-block;
+        padding-left: 32px;
+    }
+
+    .align-left {margin-left: 22px;}
+
+    .dropdown-menu.dropdown-box.scroll-dropdown {
+        position: absolute;
+        top: 53px;
+        left: -21px;
+    }
+
+    .dropdown-box-notification {
+        margin-left: -212px;}
+
+    .photo {
+        width: 123%;
+        margin-top: 6px;
+        margin-left: -11px;
+
+    }
+
+    .texte_ma_photo {
+        top: 17px;
+        left: 6px;
+        font-size: 7px;
+    }
+
+    .profil_right {
+        right: -10px;
+        width: 12%;
+    }
+
+    .textarea-mobile {
+        padding-right: 20px !important;
+    }
+
+    .country {
+        width: 76px !important;
+    }
+
+    .paragraphe {
+        width: 130px;
+    }
+
+    .slick-prev {
+        left: -71px !important;
+    }
+
+    /*.slick-active {
+        width: 8% !important;
+    }*/
+
+    .pagination-xs ul {
+        width: 275px;
+        margin-left: -17px;
+
+    }
+
+    .pagination-xs ul >li > a {
+        font-size: 12px;
+
+    }
+
+}
+
+/* safari */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    .envoyer-btn {
+        position: fixed;
+        color: white;
+        display: block;
+        /*bottom: 45px;
+        right: 41px;*/
+        background-color: #14a4cb;
+        z-index: 100;
+        cursor: pointer;
+        border:none;
+    }
+
+    .envoyer-btn:hover{
+        background-color: #4da7ca;
+        border:none;
+        color: #fff;
+    }
+
+    .number {
+       /* margin-left: 6%;*/
+        margin-top: -40px;
+        position: absolute;
+    }
+
+    .texte_ma_photo {
+        text-decoration: none !important;
+    }
+
+    .other .msg {
+        order: 1;
+        border: 1px solid rgba(239, 235, 235, 0.52);
+        margin: -42px 0 0 3px;
+        padding: 14px;
+    }
+
+    .self .avatar:after {
+        display: none;
+    }
+}
+
+/* pour chrome */
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .envoyer-btn {
+        position: fixed;
+        color: white;
+        display: block;
+        bottom: -54px;
+        right: -54px;
+        background-color: #14a4cb;
+        z-index: 100;
+        cursor: pointer;
+        border:none;
+    }
+
+
+    .envoyer-btn:hover{
+        background-color: #4da7ca;
+        border:none;
+        color: #fff;
+    }
+
+    .envoyer-btn:active{
+        background-color: #4da7ca;
+        border:none;
+        color: #fff;
+    }
+
+    .number {
+        margin-left: 26%;
+        margin-top: -40px;
+        position: absolute;
+    }
+
+    .texte_ma_photo {
+        text-decoration: none !important;
+    }
+
+    .other .msg {
+        order: 1;
+        border: 1px solid rgba(239, 235, 235, 0.52);
+        margin: 0;
+        padding: 14px;
+    }
+
+    .icon_visite {
+        margin-top: 0px;
+    }
+
+    .icon_autre {
+        margin-top: 1px;
+    }
+
+    .icon_coups_coeur {
+        margin-top: 1px;
+    }
+
+    .icon_compta {
+        margin-top: 1px;
+    }
+
+    .close-notification {
+        margin-right: 2px;
+        cursor: pointer;
+        display: block;
+        border-radius: 50%;
+        border: 3px solid rgba(255,255,255,0);
+        -webkit-transition: 0.5s cubic-bezier(.27,1.64,.32,.95);
+        -moz-transition: 0.5s cubic-bezier(.27,1.64,.32,.95);
+        -ms-transition: 0.5s cubic-bezier(.27,1.64,.32,.95);
+        -o-transition: 0.5s cubic-bezier(.27,1.64,.32,.95);
+        transition: 0.5s cubic-bezier(.27,1.64,.32,.95);
+        float: right;
+        margin-top: 0;
+        padding: 2px;
+        opacity: 0.5;
+    }
+
+    .btn-abonnez {
+        /*margin-top: -68px;
+        margin-left: 518px;*/
+        padding: 7px;
+        width: 20%;
+    }
+
+    .slick-list {
+      /*  margin-top: -32px !important;
+        margin-bottom: 10px !important;*/
+        padding-left: 32px !important;
+
+    }
+
+    .slick-prev {
+      /*  left: -90px !important;*/
+    }
+    #id-not-add-my-photo   .slick-prev {
+          left: 15px !important;
+      }
+  /*  .slick-next {
+        right: -25px !important;
+    }*/
+    #id-not-add-my-photo   .slick-next {
+          right: -68px !important;
+      }
+    .bloc_body {
+        margin-top: 6px;
+        padding: 17px 9px 56px 9px !important;
+    }
+
+    /*.slick-slider{margin-bottom: 18px;}*/
+
+
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* pour IE */
+    .nomClass ou #idNom {
+
+    }
+}
