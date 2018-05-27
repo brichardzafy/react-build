@@ -13,6 +13,7 @@ html {
 .background-simple {
     background: url('../image/background.jpg') no-repeat ;
     background-size: cover;
+    height: 100vh;
 }
 
 .topnav {
