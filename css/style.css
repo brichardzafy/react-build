@@ -559,8 +559,6 @@ b{
 
 /* ---------- 991px ------------*/
 @media (max-width: 1024px) {
-    .pastille-notification {
-        left: 57px !important;}
     .bloc_title {
         margin-top: 23px;
         padding: 10px 0px 11px 44px;
@@ -626,8 +624,10 @@ b{
 
 	.icon_notification {
 	    position: absolute;
-	    top: -5px;
-	    right: -42px;
+	    /*top: -5px;
+        right: -42px;
+        */
+        left: 0;
 	    padding: 11px;
 	}
 
@@ -927,13 +927,6 @@ b{
             padding: 9px;
             margin-left: -2px;
         }
-
-    .pastille-notification {
-        left: 36px !important;
-        width: 64%;
-        color: #fff;
-        font-size: 10px;
-    }
 
     .number {
         margin-left: 21% !important;
@@ -2413,18 +2406,7 @@ ul#menu li {
     z-index: 1000;
 }*/
 
-.pastille-notification {
-    position: absolute;
-    top: -13px;
-    left: 40px;
-    padding: 1px;
-    background: #e5097e;
-    border-radius: 50%;
-    width: 25px;
-    color: #fff;
-    z-index: 9999;
-    height: 25px;
-}
+
 .texte_ma_photo {
     position: absolute;
     top: 17px;
@@ -3227,4 +3209,68 @@ progress::-moz-progress-bar{background: transparent;}
 
 .Checkout label {
     display: block;
+}
+
+/*
+    Robot Notification style
+*/
+
+.user__notif--container {
+    position: relative;
+    right: -5px;
+    display: block;
+}
+
+.icon_notification {
+    position: relative;
+    top: 0px;
+    padding: 5px;
+}
+
+.user__notif {
+    position: relative;
+    top: -5px;
+    width: 48px;
+}
+
+.icon_notification {
+    position: relative;
+    top: 0px;
+    padding: 5px;
+}
+.pastille-notification {
+    position: absolute;
+    top: -8px;
+    left: 40px;
+    padding: 1px;
+    background: #e5097e;
+    border-radius: 50%;
+    width: 25px;
+    color: #fff;
+    z-index: 9999;
+    height: 25px;
+}
+
+.icon_notification {
+    position: relative;
+    right: 0;
+}
+
+.pastille-notification {
+    
+    left: 25px;
+    color: #fff;
+    font-size: 10px;
+}
+
+@media (min-width: 1024px) { 
+    .user__notif--container {
+        position: relative;
+        right: -48px;
+        display: block;
+    }
+}
+
+@media (min-width: 768px) { 
+    
 }
